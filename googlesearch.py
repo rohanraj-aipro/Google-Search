@@ -26,7 +26,7 @@ print(Fore.YELLOW, Back.BLACK + '   | |-----------------------------------------
 try:
     from googlesearch import search
 except ImportError:
-    print("No module named 'google' /n Try Command pip3 install googlesearch/n or/n pip install search ")
+    print("No module named 'google' \n Try Command pip3 install google \n or \n pip install google ")
 
 # to search
 query = input("What do You want to Search For ?\n")
